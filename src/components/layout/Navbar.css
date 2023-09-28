@@ -1,0 +1,24 @@
+*{
+    color:darkgrey;
+
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: whitesmoke;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
