@@ -1,14 +1,11 @@
-import "./ItemListConteiner.css"
+import "./ItemListConteiner.css";
 
-  const ItemListConteiner = ({greeting}) => {
-    
-    return (
+const ItemListConteiner = ({ greeting }) => {
+  return (
     <div>
-    <h1>{greeting}</h1>
-
+      <h1>{greeting}</h1>
     </div>
-  )
-  
-}
+  );
+};
 
-export default ItemListConteiner
+export default ItemListConteiner;
