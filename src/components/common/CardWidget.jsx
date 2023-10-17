@@ -1,12 +1,15 @@
+import { Badge } from "@mui/material";
 import React from "react";
 import { FaOpencart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function CardWidget() {
   return (
-    <div>
-      <span>0</span>
-      <FaOpencart />
-    </div>
+    <Link to="/card">
+      <Badge badgeContent={0}>
+        <FaOpencart />
+      </Badge>
+    </Link>
   );
 }
 

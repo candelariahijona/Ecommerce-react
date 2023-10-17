@@ -1,0 +1,45 @@
+h1 {
+  margin-bottom: 50px;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product-card {
+  width: calc((100% - 30px) / 4);
+  flex-shrink: 0;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card div {
+  padding: 10px;
+}
+
+.product-card h2 {
+  margin-bottom: 5px;
+}
+
+.product-card .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+.product-card .price {
+  margin-bottom: 10px;
+  font-size: small;
+  color: #808080;
+}
+
+.product-card button {
+  padding: 5px 10px;
+}
